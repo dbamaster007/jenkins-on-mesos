@@ -2,8 +2,8 @@ jenkins-on-mesos
 ==================
 
 
-MESOS_HOSTNAME=192.168.171.20
-PORT=8080
+MESOS_HOSTNAME=192.168.171.20 \n
+PORT=8080 \n
 git clone https://github.com/dbamaster007/jenkins-on-mesos.git && cd jenkins-on-mesos && curl -v -X POST \
 -H 'Accept: application/json' \
 -H 'Accept-Encoding:gzip,deflate' \
